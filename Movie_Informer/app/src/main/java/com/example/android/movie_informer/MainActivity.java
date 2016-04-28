@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Replacing current fragment with new fragment not continually adding new fragments.
         if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction().replace(R.id.gridview, new MoviesFragment()).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.container, new MoviesFragment()).commit();
         }
 
     }

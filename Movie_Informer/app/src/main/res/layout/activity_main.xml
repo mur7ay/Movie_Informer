@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container" >
+
+<GridView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/gridview"
@@ -14,3 +19,5 @@
     tools:context="com.example.android.movie_informer.MainActivity">
 
 </GridView>
+
+</RelativeLayout>
