@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Movie_Informer</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string-array name="pref_entries" translatable = "false"><item>Popularity</item><item>Ratings</item><item>Favorites</item></string-array>
-    <string-array name="pref_values" translatable = "false"><item>popularity</item><item>ratings</item><item>favorites</item></string-array>
-</resources>
