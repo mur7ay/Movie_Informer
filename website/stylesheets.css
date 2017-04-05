@@ -1,0 +1,492 @@
+@media screen and (min-width: 1440px) and (max-width: 2000px) {
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2560px) {
+  body {
+    padding-left: 480px;
+    padding-right: 480px;
+  }
+}
+
+.navbar-brand h2 {
+  margin-top: -5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  font-size: 16px;
+  color: #1A5276;
+}
+
+.introduction-container {
+  text-align: center;
+  height: 260px;
+}
+
+.introduction-container h1 {
+  color: #1A5276;
+  font-size: 80px;
+  margin-top: 140px;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .introduction-container h1 {
+    font-size: 40px;
+  }
+}
+
+.introduction-container p {
+  color: #808B96;
+  overflow: hidden;
+  margin-bottom: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#button1 {
+  background-color: #1A5276;
+  border-color: #1A5276;
+  color: #FFF;
+  font-size: 14px;
+  border-radius: 4px;
+  border-style: solid;
+  height: 40px;
+  width: 160px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  #button1 {
+    margin-bottom: 20px;
+  }
+}
+
+#button2 {
+  background-color: #FFF;
+  border-color: #1A5276;
+  color: #1A5276;
+  font-size: 14px;
+  border-radius: 4px;
+  border-style: solid;
+  height: 40px;
+  width: 160px;
+}
+
+.left-container {
+  width: 50%;
+  float: left;
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .left-container {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .left-container {
+    float: left;
+    width: 50%;
+  }
+}
+
+.left-container h3 {
+  color: #1A5276;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.left-container p {
+  color: #808B96;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 80px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.right-container {
+  width: 50%;
+  float: right;
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .right-container {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .right-container {
+    float: left;
+    width: 50%;
+  }
+}
+
+.right-container h3 {
+  color: #1A5276;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .right-container h3 {
+    margin-top: 20px;
+  }
+}
+
+.right-container p {
+  color: #808B96;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 80px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container2 {
+  clear: both;
+  background-color: #1A5276;
+  height: 200px;
+}
+
+.container2 h3 {
+  color: #FFF;
+  text-align: center;
+  padding-top: 60px;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+  .container2 h3 {
+    font-size: 20px;
+  }
+}
+
+#signup-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  border-style: solid;
+  height: 40px;
+  width: 160px;
+}
+
+#signup-button:hover {
+  background-color: blue;
+}
+
+.container3 {
+  height: 250px;
+  width: 100%;
+  clear: both;
+}
+
+.enterprise {
+  height: 80px;
+  width: 20%;
+  margin-top: 60px;
+  padding-left: 40px;
+  float: left;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+  .enterprise {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.personal {
+  height: 80px;
+  width: 20%;
+  margin-top: 60px;
+  padding-left: 40px;
+  float: left;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+  .personal {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.company {
+  height: 80px;
+  width: 20%;
+  margin-top: 60px;
+  padding-left: 40px;
+  float: left;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+  .company {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.support {
+  height: 80px;
+  width: 20%;
+  margin-top: 60px;
+  padding-left: 40px;
+  float: left;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+  .support {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.social {
+  height: 80px;
+  width: 20%;
+  margin-top: 60px;
+  float: left;
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+  .social {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three columns of equal width */
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+/* Pricing header */
+.price .header {
+    background-color: #1A5276;
+    color: white;
+    font-size: 25px;
+}
+
+/* List items */
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change the width of the three columns to 100%
+(to stack horizontally on small screens) */
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.price-desc-container {
+  text-align: center;
+  margin-top: 150px;
+  color: #515151;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .price-desc-container {
+    margin-top: 60px;
+  }
+  .price-desc-container h1 {
+    font-size: 22px;
+  }
+  .price-desc-container p {
+    font-size: 12px;
+  }
+  .columns {
+    margin-top: 30px !important;
+    margin-bottom: 60px;
+  }
+  #woman {
+    margin-top: 50px;
+  }
+  .small-header {
+    text-align: center;
+    font-size: 22px;
+    color: #515151;
+  }
+  .large-pricing-container h2 {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .price-desc-container {
+    margin-top: 110px;
+  }
+  .price-desc-container p {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+  .columns {
+    margin-top: 50px !important;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 2000px) {
+  .price-desc-container {
+    margin-top: 110px;
+  }
+  .price-desc-container p {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .columns {
+    margin-top: 50px !important;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 2001px) and (max-width: 2560px){
+  .price-desc-container p {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+  .columns {
+    margin-top: 50px !important;
+    margin-bottom: 60px;
+  }
+}
+
+.large-pricing-container {
+  clear: both;
+  height: 350px;
+  text-align: center;
+}
+
+.large-pricing-container h2 {
+  padding-top: 100px;
+}
+
+@media screen and (min-width:300px) and (max-width:768px) {
+  .large-pricing-container h2 {
+    padding-top: 20px;
+  }
+}
+
+table {
+  table-layout: fixed;
+  font-size: 22px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr.bordered {
+    border-bottom: 1px solid #EEE;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  tr.bordered {
+    font-size: 1px;
+  }
+  .large-pricing-container p {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .td-short {
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+.td-short {
+  width: 30%;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .td-short {
+    font-style: normal;
+    font-size: 12px;
+    height: 40px;
+  }
+}
+
+.td-or {
+  width: 10%;
+  font-size: 18px;
+}
+
+.footer-links a {
+  color: inherit;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  left: 0;
+  right: 0;
+}
